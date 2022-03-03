@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: theywishes-daniel.martins.antunes
+Version: 1.0.0
+Summary: Wish Counselor
+Home-page: https://github.com/danoan/they-wishes
+Author: Daniel Martins Antunes
+Author-email: danoan2008@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# They Wishes
+
+`they-wishes` is your personal wish counselor. Not sure what
+do you want? Let `they-wishes` tell you.
+
+
+

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/theywishes/__init__.py
+src/theywishes/render_they_wishes.py
+src/theywishes_daniel.martins.antunes.egg-info/PKG-INFO
+src/theywishes_daniel.martins.antunes.egg-info/SOURCES.txt
+src/theywishes_daniel.martins.antunes.egg-info/dependency_links.txt
+src/theywishes_daniel.martins.antunes.egg-info/entry_points.txt
+src/theywishes_daniel.martins.antunes.egg-info/requires.txt
+src/theywishes_daniel.martins.antunes.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+render-they-wishes = theywishes.render_they_wishes:main
+

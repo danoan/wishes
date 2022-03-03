@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{data.Name}} wishes...</title>
+  <link href="they-wishes.css" rel="stylesheet"></link>
+  <script src="they-wishes.js"></script>
+  <script>
+    function get_wishes_list(){
+      return [
+        {% for wish in data.Wishes %}
+        "{{wish}}"{% if not loop.last %},{% else %}{% endif %}{% endfor %}
+      ];
+    }
+  </script>
+</head>
+
+<body>
+  <div class="wish-container">
+    <div class="the-wish">
+      <div class="wish-visible" id="title">{{data.Name}} wishes...</div>
+      <div class="wish-hidden" id="the-wish"></div>
+    </div>
+  </div>
+  <div class="top-layer" id="top-layer"></div>
+  <!--<a href="https://www.freepik.com/vectors/background">Background vector created by freepik - www.freepik.com</a>-->
+</body>
+
+
+</html>
